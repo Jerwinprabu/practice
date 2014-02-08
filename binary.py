@@ -64,9 +64,6 @@ class BinaryTree(object):
             nlist = nlevel
             print
         
-        
-        
-
 def test():
     randarray = [random.randint(0, 1000) for x in range(50)]
     tree = BinaryTree()

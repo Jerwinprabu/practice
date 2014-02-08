@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-""" Find permutations, combinations, etc """
 import random
 
 def strstrdumb(haystack, needle):
@@ -107,8 +106,6 @@ def test():
     for y in flatten([[1], [2,3]]):
         print y
     #flatten([[1], 2, [[3, 4], 5], 6, [], [7, [8, [9, 10, 11]]]])
-        
-
 
     
 if __name__ == "__main__":

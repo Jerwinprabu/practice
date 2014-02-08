@@ -31,12 +31,6 @@ def process(mat):
             j+=1
         i+=1
                 
-                
-                
-            
-    
-
-
 matrix = [[0 for x in range(10)] for y in range(10)]
 process(matrix)
 print matrix

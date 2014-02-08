@@ -1,7 +1,9 @@
-#!/usr/bin/pypy
-# reverse polish notation evaluator
-# Functions that define the operators and how to evaluate them.
-# This example assumes binary operators, but this is easy to extend.
+#!/usr/bin/python
+"""
+reverse polish notation evaluator
+Functions that define the operators and how to evaluate them.
+This example assumes binary operators, but this is easy to extend.
+"""
 ops = {
   "+" : (lambda a, b: a + b),
   "-" : (lambda a, b: a - b),

@@ -3,7 +3,6 @@
 """ Find permutations, combinations, etc """
 import random
 
-
 def permute(n):
     if len(n) == 1:
         yield n
